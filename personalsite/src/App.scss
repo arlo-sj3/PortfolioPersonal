@@ -1,6 +1,12 @@
-body {
+
+.body {
   background-color: #132747;
 }
+
+/*h1{
+  display: inline-block;
+  color: white;
+}*/
 
 #first {
   width: 333px;
@@ -11,23 +17,23 @@ body {
 #second {
   width: 252px;
   background-color: #672382;
-margin: auto;
-}
-
-#third{
-  width: 111px;
-  background-color: #f2ac21;
   margin: auto;
 }
 
+#third {
+  width: 111px;
+  background-color: #20b4d6;
+  margin: auto;
+}
+
+
 /*#fourth{
   width: 31px;
-  background-color: #e819dd;
+  background-color: #f9f909;
   margin: auto;
 }*/
 
 .stripe {
-
   margin-top: -550px;
   margin-left: 350px;
   height: 1500px;
