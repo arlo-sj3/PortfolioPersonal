@@ -1,5 +1,6 @@
 .body {
-  background-color: #132747; }
+  background-color: #132747;
+  background-size: auto; }
 
 /*h1{
   display: inline-block;
