@@ -4,10 +4,11 @@
   background-size: auto;
 }
 
-/*h1{
+h1{
   display: inline-block;
   color: white;
-}*/
+
+}
 
 #first {
   width: 333px;
@@ -20,20 +21,23 @@
   width: 252px;
   background-color: #672382;
   margin: auto;
+  text-align: center;
 }
 
 #third {
   width: 111px;
   background-color: #20b4d6;
   margin: auto;
+  text-align: center;
 }
 
 
-/*#fourth{
+#fourth{
   width: 31px;
-  background-color: #f9f909;
+  // background-color: #f9f909;
   margin: auto;
-}*/
+  text-align: center;
+}
 
 .stripe {
   margin-top: -550px;

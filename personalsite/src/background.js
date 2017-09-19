@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+import Nameplate from './name.js';
 
 class Background extends Component {
   render() {
@@ -8,15 +9,15 @@ class Background extends Component {
         <div className="body">
           <div className="stripe" id="first">
             <div className="stripe" id="second">
-              <div className="stripe" id="third">
-                <div className="stripe" id="fourth">
 
-                </div>
+              <div className="stripe" id="third">
+                <Nameplate />
               </div>
             </div>
           </div>
         </div>
       </div>
+
     );
   }
 }

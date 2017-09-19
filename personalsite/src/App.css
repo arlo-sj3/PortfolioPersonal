@@ -2,10 +2,10 @@
   background-color: #132747;
   background-size: auto; }
 
-/*h1{
+h1 {
   display: inline-block;
-  color: white;
-}*/
+  color: white; }
+
 #first {
   width: 333px;
   background-color: #6df235;
@@ -14,18 +14,20 @@
 #second {
   width: 252px;
   background-color: #672382;
-  margin: auto; }
+  margin: auto;
+  text-align: center; }
 
 #third {
   width: 111px;
   background-color: #20b4d6;
-  margin: auto; }
-
-/*#fourth{
-  width: 31px;
-  background-color: #f9f909;
   margin: auto;
-}*/
+  text-align: center; }
+
+#fourth {
+  width: 31px;
+  margin: auto;
+  text-align: center; }
+
 .stripe {
   margin-top: -550px;
   margin-left: 350px;
