@@ -11,6 +11,7 @@ class Background extends Component {
             <div className="stripe" id="second">
 
               <div className="stripe" id="third">
+
                 <Nameplate />
               </div>
             </div>

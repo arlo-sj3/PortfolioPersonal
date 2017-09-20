@@ -1,16 +1,46 @@
-
-.body {
-  background-color: #132747;
-  background-size: auto;
+html{
+  // height: 100%;
+  // width: 100vw;
 }
 
-h1{
+.navbar{
+  width: 100vw !important;
+}
+
+body{
+
+  background-color: #132747 !important;
+  width: 100vw;
+  // height: 100vh;
+  // height: 100%;
+  // width: 100vw;
+    // background-color: #132747;
+}
+
+// .body{
+//   // height: 100%;
+//   width: 100vw;
+//   background-color: #132747;
+//   // background-size: cover;
+// }
+
+h2{
   display: inline-block;
   color: white;
+  margin-top: 900px !important;
+  transform:rotate(-90deg);
 
 }
 
+.hello{
+  width: 575px;
+  height: 500px;
+  font-weight:bolder;
+}
+
+
 #first {
+  height: 110%;
   width: 333px;
   background-color: #6df235;
   transform: rotate(58deg);

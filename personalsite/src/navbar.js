@@ -5,14 +5,13 @@ import { Navbar, NavItem, NavDropdown, MenuItem, Nav } from 'react-bootstrap';
 class Mav extends Component {
   render() {
     return (
-      <div >
-<Navbar
+<Navbar className="navbar"
   fixedBottom
   inverse
    >
    <Navbar.Header>
        <Navbar.Brand>
-         <a>MENU</a>
+         <a>MORE</a>
        </Navbar.Brand>
      </Navbar.Header>
      <Nav>
@@ -31,7 +30,6 @@ class Mav extends Component {
    </Nav>
 
 </Navbar>
-      </div>
     );
   }
 }
