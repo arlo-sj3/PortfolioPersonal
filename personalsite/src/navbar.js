@@ -15,8 +15,10 @@ class Mav extends Component {
        </Navbar.Brand>
      </Navbar.Header>
      <Nav>
-     <NavItem href="https://github.com/arlo-sj3">GitHub</NavItem>
-     <NavItem href="https://www.linkedin.com/in/arlo-shefte-jacobs-93288313b/">Linkedin</NavItem>
+     <NavItem
+       target="_blank" href="https://github.com/arlo-sj3">GitHub</NavItem>
+     <NavItem
+       target="_blank" href="https://www.linkedin.com/in/arlo-shefte-jacobs-93288313b/">Linkedin</NavItem>
        <NavDropdown title="Contact Me" id="basic-nav-dropdown">
           <MenuItem >Phone: (303) 519-3825</MenuItem>
           <MenuItem divider />
