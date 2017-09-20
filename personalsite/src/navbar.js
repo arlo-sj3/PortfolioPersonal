@@ -11,7 +11,7 @@ class Mav extends Component {
    >
    <Navbar.Header>
        <Navbar.Brand>
-         <a>MORE</a>
+         <a>MORE ---> </a>
        </Navbar.Brand>
      </Navbar.Header>
      <Nav>

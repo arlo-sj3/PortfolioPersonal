@@ -2,8 +2,10 @@
   width: 100vw !important; }
 
 body {
+  overflow: hidden;
   background-color: #132747 !important;
-  width: 100vw; }
+  height: 100vh !important;
+  width: 100vw !important; }
 
 h2 {
   display: inline-block;
