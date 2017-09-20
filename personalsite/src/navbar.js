@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
-import { Navbar } from 'react-bootstrap';
+import { Navbar, NavItem, NavDropdown, MenuItem, Nav } from 'react-bootstrap';
 
-class Nav extends Component {
+class Mav extends Component {
   render() {
     return (
       <div >
@@ -10,11 +10,30 @@ class Nav extends Component {
   fixedBottom
   inverse
    >
-  hello
+   <Navbar.Header>
+       <Navbar.Brand>
+         <a>MENU</a>
+       </Navbar.Brand>
+     </Navbar.Header>
+     <Nav>
+     <NavItem href="https://github.com/arlo-sj3">GitHub</NavItem>
+     <NavItem href="https://www.linkedin.com/in/arlo-shefte-jacobs-93288313b/">Linkedin</NavItem>
+       <NavDropdown title="Contact Me" id="basic-nav-dropdown">
+          <MenuItem >Phone: (303) 519-3825</MenuItem>
+          <MenuItem divider />
+          <MenuItem >Email: arlo.sj3@gmail.com</MenuItem>
+          <MenuItem divider />
+          <MenuItem >Address: 11990 W. Pleasant Ave. Golden, CO 80401</MenuItem>
+
+
+        </NavDropdown>
+
+   </Nav>
+
 </Navbar>
       </div>
     );
   }
 }
 
-export default Nav;
+export default Mav;
