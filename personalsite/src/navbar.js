@@ -8,7 +8,7 @@ class Mav extends Component {
     return (
 <Navbar className="navbar"
   fixedBottom
-  inverse
+  
    >
    <Navbar.Header>
        <Navbar.Brand>
